@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <div>
+        <form>
+            <p>My form</p>
+        <p><input type="name"/><span>Enter your name</span></p>
+        <p><input type="password" autocomplete="off"/><span>Password</span></p>
+        <p><input type="checkbox"/><span>checkbox</span></p>
+        <p><input type="email" required="required"/><span>email</span></p>
+        <p><input type="file"/><span>file</span></p>
+        <p><input type="range"/></p>
+        <p><input type="number"/><span>number</span></p>
+    </div>
+    <div>
+        <p>
+            <label>
+            <input type="radio" name="age" value="0"/>
+            <span>0-18</span>
+            </label>
+        </p>
+        <p>
+            <input type="radio" name="age" value="19" id="age 19-55"/>
+            <label for="age 19-55">19-55</label>
+            </p>
+        <p><input type="radio" name="age" value="55+"/><span>56</span></p>
+    </div>
+    <div>
+    <p>Message</p>
+    <textarea placeholder="Enter your message"></textarea>
+    </div>
+  <div>
+      <select name="country">
+          <option value="Ru">Russia</option>
+          <option value="Au">Austria</option>
+          <option value="Fr">France</option>
+          <option value="Us">USA</option>
+      </select>
+  </div>  
+  <div>
+      <input type="submit"/><span>Submit</span> 
+  </div>
+  <div>
+      <button type="button">send</button> 
+  </div>
+  <div class="audios">
+      <h4>Songs</h4>
+      <p><audio src="./Sinitana - Harmony of Dream.mp3" controls></audio></p>
+      <p><audio src="./Sinitana - No Rules.mp3" controls></audio></p>
+      <p><audio src="./DareveL - ''Infinite Stream'' in A Minor.mp3" controls></audio></p>
+  </div>
+<div class="videos">
+    <h4>Video</h4>
+    <p><video src="./vid1.mp4" controls height="400" width="500"  ></video></p>
+    <p>vid1</p>
+    <p><video src="./vid2.mp4" controls height="400" width="500"></video></p>
+    <p>vid2</p>
+    <p><video src="./vid3.mp4" controls height="400" width="500"></video></p>
+    <p>vid3</p>
+</div>
+  </form>
+</body>
+</html>
