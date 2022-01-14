@@ -1,0 +1,75 @@
+.color {
+    background: linear-gradient(to top left,rgba(122, 118, 119, 0.089),rgba(136, 136, 134, 0.493));
+    border: hidden;
+    -webkit-background-origin: cover;
+}
+.white {
+    padding: 20px 20%;
+    box-sizing: content-box;
+    /background: linear-gradient(to top,rgba(122, 118, 119, 0.281),rgba(250, 250, 241, 0.137));/
+    /position: fixed;/
+}
+.white article {
+    background-image: url('./pngwing.com.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    border-bottom: 1px solid rgba(184, 178, 178, 0.397);
+    padding: 80px;
+}
+ .white article .contents {
+        width: 50%;
+        padding: 20px;
+        
+        color: rgba(241, 152, 35, 0.774);
+        margin-right: 200px;
+        margin-left: 500px;
+        margin-top: 100px;
+ }
+ .white .contents .text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 300px;
+}
+.white .contents .text h4 {
+font-size: 50px;
+margin-bottom: 25px;
+line-height: 1;
+}
+.white .contents .text p {
+   font-size: 20px;
+   line-height: 1.5;
+}
+.white .contents .text button {
+    border-color: unset;
+    text-align: left;
+    background-color: rgb(210, 81, 30);
+    color: white;
+    border-radius: 5px;
+    margin-top: -30px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /border: none;/
+}
+.quote .content {
+   box-sizing: border-box;
+   height: 100%;
+  / background-color: rgba(122, 118, 119, 0.281);/
+}
+.quote .content h4 {
+    font-size: 30px;
+    color: rgba(241, 152, 35, 0.774);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quote .content p {
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    color: rgba(241, 152, 35, 0.774);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}

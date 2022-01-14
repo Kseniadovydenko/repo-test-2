@@ -1,0 +1,52 @@
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.black {
+    color: black;
+}
+.blue {
+    color: rgb(0, 204, 255);
+}
+.yellow {
+    color: yellow;
+}
+.text {
+    font-size: 20px;
+}
+.size-s {
+    font-size: 1.1em;
+}
+.size-m {
+    font-size: 1.4em;
+}
+.size-l {
+    font-size: 1.8em;
+}
+.size-xl {
+    font-size: 2.4em;
+}
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.strike {
+    text-decoration: line-through;
+}
+.text {
+    text-align: center;
+    font-family: arial; helvetica,sans-serif;
+}
+.item {
+    border: 3px; 
+    border-style: solid; 
+    border-color: green;
+}

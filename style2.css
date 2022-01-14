@@ -1,0 +1,89 @@
+.buttons button {
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.buttons button:active {
+background:red;
+}
+.buttons button.blue {
+background-color: rgba(0, 174, 255, 0.52);
+border-color: rgba(0, 174, 255, 0.52);;
+
+}
+
+.buttons button.green {
+    background-color: cadetblue;
+    border-color: cadetblue;
+    
+    
+}
+.buttons button.blue.Download:before {
+   content: '';
+    display: inline-table;
+    width: 16px;
+    height: 16px;
+    background-image: url(3325114_download_icon.png);
+    background-size: 100%;
+    padding: 5px 3%;
+    border-right: solid 1px white;
+    padding: 9px;
+    margin-right: 30px; 
+}
+
+.buttons button.blue.Getintouch:before {
+    content: '';
+    display: inline-table;
+    width: 16px;
+    height: 16px;
+    background-image: url(./3643743_hook_mark_needle_pin_pricker_icon.png);
+    background-size:80%;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+    border-right: solid 1px white;
+    padding: 9px;
+    margin-right: 20px;
+
+}
+.buttons button.green:before {
+    content: '';
+    display: inline-table;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    background-image: url(./211754_heart_icon.png);
+    background-size:80%;
+    background-repeat: no-repeat; 
+    border-right: solid 1px white;
+    padding: 9px;
+    margin-right: 48px;
+     
+}
+
+.buttons button.blue.View:before {
+    content: '';
+    display: inline-table;
+    width: 16px;
+    height: 16px;
+    border-right: solid 1px white;
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 5px;
+    /*background-image: url(./3844476_eye_see_show_view_watch_icon.png);
+    background-size: 100%;
+    padding: 3px 4%;
+    margin-right: 6px;*/
+   
+}
+.buttons button:active {
+    background-color: red;
+}
+
+.buttons button:hover {
+    opacity: .9;
+}
+
